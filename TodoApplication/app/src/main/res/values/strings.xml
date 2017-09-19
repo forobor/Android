@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TodoApplication</string>
+    <string name="kIndexRequest">jdbc:postgresql://localhost:3000/todoapp</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    fontPath="fonts/OpenSans-Light.ttf"
+    tools:ignore="MissingPrefix"
+    tools:context="com.example.trettermert.todoapplication.AddTodo">
+
+    <TextView
+
+        android:id="@+id/task"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        android:text="ЗАДАЧА"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <EditText
+        android:id="@+id/taskField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/task"
+        android:ems="10"
+        android:hint="Название задачи..."
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/taskField"
+        android:layout_marginTop="10dp"
+        android:text="КАТЕГОРИЯ" />
+
+    <ListView
+        android:id="@+id/listCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/category"
+        android:clickable="true" />
+
+
+</RelativeLayout>

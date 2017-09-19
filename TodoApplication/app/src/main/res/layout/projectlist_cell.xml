@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    tools:ignore="MissingPrefix"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@+id/label"
+            fontPath="fonts/OpenSans-Light.ttf">
+        </TextView>
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="22px"
+                android:layout_height="22px"
+                android:layout_marginLeft="4px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="4px"
+                android:background="#AAB0BC"
+                android:src="@drawable/done"
+                android:visibility="gone">
+        </ImageView>
+
+</LinearLayout>
